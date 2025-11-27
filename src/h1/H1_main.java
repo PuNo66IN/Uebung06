@@ -9,9 +9,9 @@ public class H1_main {
         int[] c = {2, 4, 6};
         int[] d = {6, 4, 9};
 
-        System.out.println(isMirrorArray(a, b));
-        System.out.println(isMirrorArray(b, a));
-        System.out.println(isMirrorArray(c, d));
+        System.out.println("isMirrorArray(a,b) = " + isMirrorArray(a, b));
+        System.out.println("isMirrorArray(b,a) = " + isMirrorArray(b, a));
+        System.out.println("isMirrorArray(c,d) = " + isMirrorArray(c, d));
     }
 
     public static boolean isMirrorArray(int[] a, int[] b) {
